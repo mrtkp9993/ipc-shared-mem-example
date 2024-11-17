@@ -11,6 +11,26 @@ The example consists of two programs:
 * A Go server that writes data to shared memory
 * A Node.js client that reads the data from shared memory
 
+## Pre-requisites
+
+* Go 1.16 or later
+* Node.js 14 or later
+* Unix-like operating system (Linux, macOS, etc.)
+
+## Running the Example
+
+1. Run the Go app:
+
+```bash
+go run main.go
+```
+
+2. Run the Node.js app:
+
+```bash
+node reader.js
+```
+
 ## Our Paid Apps
 
 * [tradeslyFX Forex AI Roboadvisor](https://play.google.com/store/apps/details?id=com.tradesly.tradeslyfx)
